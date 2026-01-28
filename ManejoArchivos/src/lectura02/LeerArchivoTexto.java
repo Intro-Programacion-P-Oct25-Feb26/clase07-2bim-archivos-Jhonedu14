@@ -22,6 +22,11 @@ public class LeerArchivoTexto {
             while (entrada.hasNext()) {
                 String linea = entrada.nextLine();
                 List<String> lista = Arrays.asList(linea.split("\\|"));
+                /*Se utiliza  \\| para poder identificar mas claramente el pipe 
+                ya que es un caracter es puramente java, no solo se puede utilizar
+                ese unico caracter tambien hay variedad que aprendimos en la 
+                clase como separadores como el .* espacion y tabuladores 
+                */
                 ArrayList<String> linea_partes = new ArrayList<>(lista);
                 
                 
